@@ -1,95 +1,76 @@
-$red-color: red;
-$space-jam-image: url("../images/download.gif");
-$float-right: right;
-$medium-gap: 50px;
+$off-white: #f5f5f5;
+$light-grey: #D3D3D3;
+$container-width: 1270px;
+$main-margin: 20px;
+$large-text: 950px;
+
+// * {
+//   border: black solid 1px;
+//   box-sizing: border-box;
+// }
 
 body {
-  background-image: $space-jam-image;
+  background-color: $light-grey;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.imageholder {
-  width: 600px;
-  margin: 0 auto {
-    top: 130px;
-    left: auto;
-    right: auto;
+.navbar-container {
+  width: 100%;
+  height: 125px;
+  background-color: $off-white;
+
+}
+
+.navbar {
+  max-width: $container-width;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  height: 125px;
+
+  img {
+    height: 48px;
+    width: 145px;
   }
 }
 
-img {
-  margin: 1px;
+.left-links {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  img {
+    margin-bottom: 20px;
+  }
+  a {
+
+  }
 }
+
 
 .container {
-  .row {
-    height: 100px;
-  }
-}
-
-#behind,
-#jump {
-  float: $float-right;
-  margin-right: $medium-gap;
-}
-
-#studiostore {
-  float: $float-right;
+  width: $container-width;
+  display: flex;
   margin: 0 auto;
-  padding: {
-    right: 40px;
-    top: $medium-gap;
+}
+
+.content {
+  width: $large-text;
+  height: 800px;
+  background-color: $off-white;
+  margin-right: $main-margin;
+}
+
+.footer {
+  width: $large-text;
+  background-color: $off-white;
+  height: 360px;
+}
+
+.ad {
+  width: 300px;
+  height: 250px;
+  img {
+    width: 300px;
+    height: 250px;
   }
-}
-
-#lunartunes {
-  margin-top: 20px;
-}
-
-#jamcentral {
-  margin: {
-    left: $medium-gap;
-    top: 20px;
-  }
-}
-
-#pressbox {
-  margin: {
-    top: $medium-gap;
-    left: $medium-gap;
-  }
-}
-
-#jump {
-  margin: {
-    top: $medium-gap;
-    left: 40px;
-  }
-}
-
-#behind {
-  float: left;
-  margin: {
-    left: -70px;
-    top: 20px;
-  }
-}
-
-#logo {
-  margin-left: -80px;
-}
-
-#souvenirs {
-  padding-left: 80px;
-  margin-top: -20px;
-}
-
-#sitemap {
-  padding-top: $medium-gap;
-}
-
-p {
-  margin-top: 10%;
-  color: $red-color;
-  text-align: center;
-  width: auto;
 }
