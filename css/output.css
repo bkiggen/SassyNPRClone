@@ -1,0 +1,79 @@
+body {
+  background-image: url("../images/download.gif");
+}
+
+.imageholder {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  margin: 1px;
+}
+
+.container .row {
+  height: 100px;
+}
+
+#behind,
+#jump {
+  float: right;
+  margin-right: 50px;
+}
+
+#studiostore {
+  float: right;
+  margin: 0 auto;
+  padding-right: 40px;
+  padding-top: 50px;
+}
+
+#lunartunes {
+  margin-top: 20px;
+}
+
+#jamcentral {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#pressbox {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#jump {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+#behind {
+  float: left;
+  margin-left: -70px;
+  margin-top: 20px;
+}
+
+#logo {
+  margin-left: -80px;
+}
+
+#souvenirs {
+  padding-left: 80px;
+  margin-top: -20px;
+}
+
+#sitemap {
+  padding-top: 50px;
+}
+
+p {
+  margin-top: 10%;
+  color: red;
+  text-align: center;
+  width: auto;
+}
+
+/*# sourceMappingURL=output.css.map */
