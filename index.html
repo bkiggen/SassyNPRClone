@@ -5,12 +5,16 @@
     <title>NPR</title>
     <link rel="stylesheet" href="css/output.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="icon" href="images/npr-favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width">
   </head>
   <body>
     <div class="navbar-container">
       <div class="navbar">
+        <i class="fas fa-bars"></i>
       <div class="left-links">
-        <img src="images/npr-logo.svg" alt="">
+        <img id="logo" src="images/npr-logo.svg" alt="">
         <div class="anchor-links">
           <a href="#">news</a>
           <a href="#">arts & life</a>
@@ -37,9 +41,9 @@
       <div class="content-container">
         <div class="content">
           <div class="kav article">
-            <span class="headline">WATCH LIVE: Senators Question Brett Kavanaugh In Day 2 Of Hearings</span><span class="paragraph">Under grilling by Democrats, the Supreme Court nominee called Roe v. Wade "important precedent" but stopped short of saying whether he thinks that case was correctly decided.</span>
             <img class="bigpic"
             src="images/kevpic.png">
+            <span class="headline">WATCH LIVE: Senators Question Brett Kavanaugh In Day 2 Of Hearings</span><br><span class="paragraph">Under grilling by Democrats, the Supreme Court nominee called Roe v. Wade "important precedent" but stopped short of saying whether he thinks that case was correctly decided.</span>
           </div>
           <div class="threeart">
             <div class="medschool small-article">
@@ -55,9 +59,9 @@
               <span class="headline">Dubai-NYC Flight Ends With Sick Passengers Taken To Hospital; Jet Quarantined</span>
             </div>
           </div>
-          <div class="pick-station">
+          <div class="pick-station article">
             <div class="pick-station-titles">
-              <h3>Pick Your Local NPR Station</h3>
+              <h1>Pick Your Local NPR Station</h1>
               <p>There are at least 2 stations nearby. Would you like to save one as your favorite?</p>
             </div>
             <div class="stations">
@@ -70,6 +74,42 @@
                 <button type="button" name="button">SAVE AS FAVORITE</button>
               </div>
             </div>
+            <div class="find-another-button-container">
+              <button>NO, HELP ME FIND ANOTHER</button>
+            </div>
+          </div>
+          <div class="threeart">
+            <div class="medschool small-article">
+              <img class="babypic" src="images/medpic.png">
+              <span class="headline">A Medical School Tradition Comes Under Fire For Racism</span>
+            </div>
+            <div class="pressley small-article">
+              <img class="babypic" src="images/pressleypic.png">
+              <span class="headline">Ayanna Pressley's Upset Victory Shows Power Of Women Of Color In Democratic Politics</span>
+            </div>
+            <div class="dubai small-article">
+              <img class="babypic" src="images/dubaipic.png">
+              <span class="headline">Dubai-NYC Flight Ends With Sick Passengers Taken To Hospital; Jet Quarantined</span>
+            </div>
+          </div>
+          <div class="pick-station article">
+            <div class="pick-station-titles">
+              <h1>Pick Your Local NPR Station</h1>
+              <p>There are at least 2 stations nearby. Would you like to save one as your favorite?</p>
+            </div>
+            <div class="stations">
+              <div class="opb">
+                <img class="localization__logo" src="https://media.npr.org/images/stations/nprone_logos/opb.png" alt="Oregon Public Broadcasting logo">
+                <button type="button" name="button">SAVE AS FAVORITE</button>
+              </div>
+              <div class="opb">
+                <img class="localization__logo" src="https://media.npr.org/images/stations/logos/kmhd_fm.gif" alt="Oregon Public Broadcasting logo">
+                <button type="button" name="button">SAVE AS FAVORITE</button>
+              </div>
+            </div>
+            <div class="find-another-button-container">
+              <button>NO, HELP ME FIND ANOTHER</button>
+            </div>
           </div>
         </div>
         <div class="footer">
@@ -77,7 +117,7 @@
         </div>
       </div>
       <div class="ad">
-        <img src="https://tpc.googlesyndication.com/simgad/14910152492187934759">
+        <img  src="https://tpc.googlesyndication.com/simgad/14910152492187934759">
       </div>
     </div>
   </body>
